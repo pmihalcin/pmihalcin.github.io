@@ -1,0 +1,191 @@
+@-moz-keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 30, ../sass/style.sass */
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 36, ../sass/style.sass */
+body {
+  display: table;
+}
+
+/* line 40, ../sass/style.sass */
+#wrap {
+  display: table-row;
+}
+
+/* line 43, ../sass/style.sass */
+#page {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1.5em 0.5em 5%;
+}
+
+/* line 53, ../sass/style.sass */
+body {
+  font: 15px/1.6 "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #4b4f54;
+}
+
+/* line 61, ../sass/style.sass */
+* {
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+/* line 64, ../sass/style.sass */
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* line 68, ../sass/style.sass */
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* line 72, ../sass/style.sass */
+[title]:not(a) {
+  cursor: help;
+}
+
+/* line 75, ../sass/style.sass */
+.fa {
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+/* line 79, ../sass/style.sass */
+a .fa {
+  opacity: 0.9;
+}
+/* line 81, ../sass/style.sass */
+li .fa {
+  opacity: 0.8;
+}
+
+/* line 91, ../sass/style.sass */
+#social {
+  margin: 0;
+}
+/* line 94, ../sass/style.sass */
+#social a {
+  display: inline-block;
+  margin: 0 0.2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  -moz-border-radius: 9em;
+  -webkit-border-radius: 9em;
+  border-radius: 9em;
+  font-size: 1.2em;
+}
+/* line 103, ../sass/style.sass */
+#social a * + span {
+  display: none;
+}
+/* line 106, ../sass/style.sass */
+#social a .fa-stack-overflow {
+  color: #333;
+}
+
+/* line 113, ../sass/style.sass */
+section {
+  margin: 0 auto 2em;
+  max-width: 32em;
+}
+/* line 117, ../sass/style.sass */
+section h2 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+/* line 123, ../sass/style.sass */
+section ul {
+  padding: 0;
+  margin: 0.5em auto;
+  list-style: none;
+}
+/* line 128, ../sass/style.sass */
+section li {
+  display: inline-block;
+  margin: 1px 0;
+  border-radius: 6px;
+  list-style: none;
+  cursor: default;
+}
+/* line 137, ../sass/style.sass */
+section#contact h1 {
+  margin: 1em 0 0;
+  line-height: 1;
+  font-size: 2.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* line 144, ../sass/style.sass */
+section#contact h1 * {
+  vertical-align: middle;
+}
+/* line 147, ../sass/style.sass */
+section#contact h1 img {
+  border-radius: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cccfd0;
+  box-sizing: border-box;
+}
+/* line 155, ../sass/style.sass */
+section#contact p {
+  margin: 0.5em 0 0.3em;
+}
+/* line 159, ../sass/style.sass */
+section#contact #social a {
+  display: inline-block;
+  padding: 0 0.2em;
+}
+/* line 164, ../sass/style.sass */
+section#about p {
+  font-size: 1.2em;
+}
+/* line 168, ../sass/style.sass */
+section#projects li {
+  display: block;
+}
+/* line 170, ../sass/style.sass */
+section#projects li a {
+  text-decoration: underline;
+}
+/* line 173, ../sass/style.sass */
+section#projects li a:hover {
+  background: #fff;
+}
